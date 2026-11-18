@@ -5,4 +5,4 @@ app = Flask(__name__)
 def index():
     return "<h1>Hello, world!</h1>"
 if __name__ == '__main__':
-    app.run(debug=True, port=4761)
+    app.run(host="0.0.0.0", debug=False, port=4761)
